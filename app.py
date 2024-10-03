@@ -1,10 +1,10 @@
 import streamlit as st
 
 # Sidebar layout with persistent navigation
-st.sidebar.title("Navigation")
+st.sidebar.title("HCI Project")
 
 # Create buttons for Home and Team Members
-home_button = st.sidebar.button("Home")
+home_button = st.sidebar.button("Introduction")
 team_button = st.sidebar.button("Team Members")
 
 # Create dropdown menu for assignments
@@ -27,8 +27,47 @@ else:
 # Main content changes based on selection
 # Home page content
 if page == "Home":
-    st.title("Human-Computer Interaction Course Assignments")
-    st.write("Welcome to our HCI assignment portal. Explore all the assignments and team members here.")
+    st.markdown("<h1 style='text-align: center;'>AI-Based Skill Assessment System </h1>", unsafe_allow_html=True)
+    
+
+    # Centered Purpose and Objective Section with Smaller Font
+    st.markdown("<h3 style='font-size: 26px;'>📌 Purpose and Objective</h3>", unsafe_allow_html=True)
+    st.markdown("""
+    <ul style="font-size: 16px;">
+        <li>The AI-Based Skill Assessment System is designed to streamline the placement process for IT engineering students and the Training and Placement Office (TPO).</li>
+        <li>By providing an integrated platform, the system helps students evaluate their skills, receive career guidance, and improve their placement prospects through domain-specific quizzes and personalized recommendations.</li>
+    </ul>
+    """, unsafe_allow_html=True)
+
+    # Centered Project Scope Section with Smaller Font
+    st.markdown("<h3 style=' font-size: 26px;'>🔍 Project Scope</h3>", unsafe_allow_html=True)
+    st.markdown("""
+    <ul style="font-size: 16px;">
+        <li>The system supports students in uploading their resumes, receiving ATS-based skill extraction, and accessing personalized career recommendations.</li>
+        <li>It also assists TPOs in managing and sorting students based on skills, department, and resume scores.</li>
+    </ul>
+    """, unsafe_allow_html=True)
+
+    # Centered Target Audience Section with Smaller Font
+    st.markdown("<h3 style=' font-size: 26px;'>🎓 Target Audience</h3>", unsafe_allow_html=True)
+    st.markdown("""
+    <ul style="font-size: 16px;">
+        <li>This system is designed for IT engineering students, the Training and Placement Office, and academic administrators to facilitate career guidance and placement management.</li>
+    </ul>
+    """, unsafe_allow_html=True)
+
+    # Centered HCI Techniques Section with Smaller Font
+    st.markdown("<h3 style='font-size: 26px;'>🛠️ Human-Computer Interaction (HCI) Techniques Used</h3>", unsafe_allow_html=True)
+    st.markdown("""
+    <ul style="font-size: 16px;">
+        <li><strong>User Journey Map</strong>: Visual representation of a student’s experience with the system.</li>
+        <li><strong>Scenario Design</strong>: Scenarios showcasing common interactions and system usage.</li>
+        <li><strong>Card Sorting</strong>: Organizing content based on user feedback to improve information structure.</li>
+        <li><strong>Low-Fidelity and High-Fidelity Prototypes</strong>: Iterative design approach to create and refine user interface designs.</li>
+    </ul>
+    """, unsafe_allow_html=True)
+
+    
 
 # Assignment 1
 elif page == "Assignment 1: User Research":
@@ -83,24 +122,24 @@ elif page == "Team Members":
     
     with col1:
         st.image("./images/mansi.jpeg", width=150)
-        st.write("Name: John Doe")
-        st.write("Roll No: 123")
-        st.write("PRN: ABC123")
+        st.write("Name: Vivek Pahilwan")
+        st.write("Roll No: 331071")
+        st.write("PRN: 22320030")
     
     with col2:
         st.image("./images/mansi.jpeg", width=150)
-        st.write("Name: Jane Doe")
-        st.write("Roll No: 124")
-        st.write("PRN: XYZ456")
+        st.write("Name: Manasi Hire")
+        st.write("Roll No: 331070")
+        st.write("PRN: 22320015")
     
     with col3:
         st.image("./images/mansi.jpeg", width=150)
-        st.write("Name: Michael Smith")
-        st.write("Roll No: 125")
-        st.write("PRN: LMN789")
+        st.write("Name: Janhavi Hire")
+        st.write("Roll No: 332069")
+        st.write("PRN: 22320016")
     
     with col4:
         st.image("./images/mansi.jpeg", width=150)
-        st.write("Name: Sarah Johnson")
-        st.write("Roll No: 126")
-        st.write("PRN: QWE890")
+        st.write("Name: Dhiraj Wagh")
+        st.write("Roll No: 331072")
+        st.write("PRN: 22320044")
