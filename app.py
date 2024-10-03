@@ -70,9 +70,9 @@ if page == "Home":
     
 
 # Assignment 1
-elif page == "Assignment 1: User Research":
-    st.title("Assignment 1: User Research")
-    st.write("Description of Assignment 1")
+elif page == "Assignment 1: User personna":
+    st.title("Assignment 1: User personna")
+    st.write("In this assignment, we created detailed user personas for the AI-Based Skill Assessment System. The purpose of developing these personas was to gain a deeper understanding of the target users—IT engineering students, Training and Placement Officers (TPOs), and academic administrators. Each persona includes demographic information, goals, needs, and pain points related to the skill assessment and placement process. By identifying these user characteristics, we aimed to ensure that the system's design aligns with users' expectations and enhances their overall experience. This user-centered approach will guide the development of features and functionalities tailored to the diverse needs of our users.")
     st.markdown("[Assignment 1 Report](https://drive.google.com/your-link)", unsafe_allow_html=True)
     st.markdown("""
     <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" 
