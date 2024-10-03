@@ -9,12 +9,12 @@ team_button = st.sidebar.button("Team Members")
 
 # Create dropdown menu for assignments
 assignment_page = st.sidebar.selectbox("Select an Assignment", 
-                                       ["Assignment 1: User Personna", 
-                                        "Assignment 2: Scenerio and user jouney map", 
-                                        "Assignment 3: card sorting",
-                                        "Assignment 4: Low fidelity design",
-                                        "Assignment 5: High fidelity design",
-                                        "Assignment 6: prototype design"])
+                                       ["Assignment 1: User Persona", 
+                                        "Assignment 2: Scenario and User Journey Map", 
+                                        "Assignment 3: Card Sorting",
+                                        "Assignment 4: Low Fidelity Design",
+                                        "Assignment 5: High Fidelity Design",
+                                        "Assignment 6: Prototype Design"])
 
 # Determine the page to display
 if home_button:
@@ -28,7 +28,6 @@ else:
 # Home page content
 if page == "Home":
     st.markdown("<h1 style='text-align: center;'>AI-Based Skill Assessment System </h1>", unsafe_allow_html=True)
-    
 
     # Centered Purpose and Objective Section with Smaller Font
     st.markdown("<h3 style='font-size: 26px;'>📌 Purpose and Objective</h3>", unsafe_allow_html=True)
@@ -40,7 +39,7 @@ if page == "Home":
     """, unsafe_allow_html=True)
 
     # Centered Project Scope Section with Smaller Font
-    st.markdown("<h3 style=' font-size: 26px;'>🔍 Project Scope</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='font-size: 26px;'>🔍 Project Scope</h3>", unsafe_allow_html=True)
     st.markdown("""
     <ul style="font-size: 16px;">
         <li>The system supports students in uploading their resumes, receiving ATS-based skill extraction, and accessing personalized career recommendations.</li>
@@ -49,7 +48,7 @@ if page == "Home":
     """, unsafe_allow_html=True)
 
     # Centered Target Audience Section with Smaller Font
-    st.markdown("<h3 style=' font-size: 26px;'>🎓 Target Audience</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='font-size: 26px;'>🎓 Target Audience</h3>", unsafe_allow_html=True)
     st.markdown("""
     <ul style="font-size: 16px;">
         <li>This system is designed for IT engineering students, the Training and Placement Office, and academic administrators to facilitate career guidance and placement management.</li>
@@ -67,54 +66,32 @@ if page == "Home":
     </ul>
     """, unsafe_allow_html=True)
 
-    
-
-# Assignment 1
-elif page == "Assignment 1: User personna":
-    st.title("Assignment 1: User personna")
-    st.write("In this assignment, we created detailed user personas for the AI-Based Skill Assessment System. The purpose of developing these personas was to gain a deeper understanding of the target users—IT engineering students, Training and Placement Officers (TPOs), and academic administrators. Each persona includes demographic information, goals, needs, and pain points related to the skill assessment and placement process. By identifying these user characteristics, we aimed to ensure that the system's design aligns with users' expectations and enhances their overall experience. This user-centered approach will guide the development of features and functionalities tailored to the diverse needs of our users.")
+# Assignment pages content
+elif page == "Assignment 1: User Persona":
+    st.title("Assignment 1: User Persona")
+    st.write("In this assignment, we created detailed user personas for the AI-Based Skill Assessment System...")
     st.markdown("[Assignment 1 Report](https://drive.google.com/your-link)", unsafe_allow_html=True)
     st.markdown("""
     <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" 
     src="https://embed.figma.com/design/1Hj98OAQlYOB4EBUPBpJ2Y/WEBISTE-DESIGNS?node-id=0-1&embed-host=share" allowfullscreen></iframe>
     """, unsafe_allow_html=True)
 
-# Assignment 2
-elif page == "Assignment 2: scenerio and user journey map":
-    st.title("Assignment 2: User Interface Design")
-    st.write("Description of Assignment 2")
+elif page == "Assignment 2: Scenario and User Journey Map":
+    st.title("Assignment 2: Scenario and User Journey Map")
+    st.write("In this assignment, we mapped out user scenarios and created a detailed user journey map...")
     st.markdown("[Assignment 2 Report](https://drive.google.com/your-link)", unsafe_allow_html=True)
     st.markdown("""
     <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" 
     src="https://embed.figma.com/design/2Lk98RBQlYOB4EBUPBpJ3Y/WEBISTE-DESIGNS?node-id=0-2&embed-host=share" allowfullscreen></iframe>
     """, unsafe_allow_html=True)
 
-# Add more assignments similarly...
-elif page == "Assignment 3: card sorting":
-    st.title("Assignment 3: Interaction Design")
-    st.write("Description of Assignment 3")
+# Add similar structure for the rest of the assignments
+elif page == "Assignment 3: Card Sorting":
+    st.title("Assignment 3: Card Sorting")
+    st.write("This assignment focused on card sorting to organize content based on user feedback...")
     st.markdown("[Assignment 3 Report](https://drive.google.com/your-link)", unsafe_allow_html=True)
-    st.markdown("""
-    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" 
-    src="https://embed.figma.com/design/3Hj98OAQlYOB4EBUPBpJ4Y/WEBISTE-DESIGNS?node-id=0-3&embed-host=share" allowfullscreen></iframe>
-    """, unsafe_allow_html=True)
 
-elif page == "Assignment 4: Prototyping":
-    st.title("Assignment 4: Prototyping")
-    st.write("Description of Assignment 4")
-    st.markdown("[Assignment 4 Report](https://drive.google.com/your-link)", unsafe_allow_html=True)
-
-elif page == "Assignment 5: Usability Testing":
-    st.title("Assignment 5: Usability Testing")
-    st.write("Description of Assignment 5")
-    st.markdown("[Assignment 5 Report](https://drive.google.com/your-link)", unsafe_allow_html=True)
-
-elif page == "Assignment 6: Final Evaluation":
-    st.title("Assignment 6: Final Evaluation")
-    st.write("Description of Assignment 6")
-    st.markdown("[Assignment 6 Report](https://drive.google.com/your-link)", unsafe_allow_html=True)
-
-# Team Members Section
+# Team Members section
 elif page == "Team Members":
     st.title("Team Members")
     
