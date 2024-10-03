@@ -9,12 +9,12 @@ team_button = st.sidebar.button("Team Members")
 
 # Create dropdown menu for assignments
 assignment_page = st.sidebar.selectbox("Select an Assignment", 
-                                       ["Assignment 1: User Research", 
-                                        "Assignment 2: User Interface Design", 
-                                        "Assignment 3: Interaction Design",
-                                        "Assignment 4: Prototyping",
-                                        "Assignment 5: Usability Testing",
-                                        "Assignment 6: Final Evaluation"])
+                                       ["Assignment 1: User Personna", 
+                                        "Assignment 2: Scenerio and user jouney map", 
+                                        "Assignment 3: card sorting",
+                                        "Assignment 4: Low fidelity design",
+                                        "Assignment 5: High fidelity design",
+                                        "Assignment 6: prototype design"])
 
 # Determine the page to display
 if home_button:
@@ -80,7 +80,7 @@ elif page == "Assignment 1: User personna":
     """, unsafe_allow_html=True)
 
 # Assignment 2
-elif page == "Assignment 2: User Interface Design":
+elif page == "Assignment 2: scenerio and user journey map":
     st.title("Assignment 2: User Interface Design")
     st.write("Description of Assignment 2")
     st.markdown("[Assignment 2 Report](https://drive.google.com/your-link)", unsafe_allow_html=True)
@@ -90,7 +90,7 @@ elif page == "Assignment 2: User Interface Design":
     """, unsafe_allow_html=True)
 
 # Add more assignments similarly...
-elif page == "Assignment 3: Interaction Design":
+elif page == "Assignment 3: card sorting":
     st.title("Assignment 3: Interaction Design")
     st.write("Description of Assignment 3")
     st.markdown("[Assignment 3 Report](https://drive.google.com/your-link)", unsafe_allow_html=True)
