@@ -136,6 +136,9 @@ elif page == "Assignment 4: Low fidelity design":
         "The low-fidelity prototypes enabled us to effectively communicate our design ideas and gather early feedback. This iterative process not only enhanced our understanding of user needs but also served as a foundation for developing high-fidelity prototypes in subsequent assignments."
     )
     st.markdown("[Assignment 4 Report](https://drive.google.com/your-link)", unsafe_allow_html=True)
+    st.markdown("""
+    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/UyBSlSobuV8yb9JBqi67LQ/WEBISTE-DESIGNS-(Copy)?node-id=384-12211&embed-host=share" allowfullscreen></iframe>
+    """, unsafe_allow_html=True)
 
 elif page == "Assignment 5: High fidelity design":
     st.title("Assignment 5: High fidelity design")
@@ -153,6 +156,9 @@ elif page == "Assignment 5: High fidelity design":
         "The high-fidelity prototypes provided a realistic representation of the system, enabling us to validate design choices and gather comprehensive user feedback. This phase was crucial for ensuring that the final product aligns with user expectations and requirements."
     )
     st.markdown("[Assignment 5 Report](https://drive.google.com/your-link)", unsafe_allow_html=True)
+    st.markdown("""
+    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/UyBSlSobuV8yb9JBqi67LQ/WEBISTE-DESIGNS-(Copy)?node-id=0-1&embed-host=share" allowfullscreen></iframe>
+      """, unsafe_allow_html=True)
 
 elif page == "Assignment 6: prototype design":
     st.title("Assignment 6: prototype design")
@@ -174,7 +180,10 @@ elif page == "Assignment 6: prototype design":
         "By the end of this assignment, we aimed to have a functional prototype that not only looks appealing but also meets the usability standards necessary for effective interaction. This prototype serves as a crucial step before the final implementation of the system."
     )
     st.markdown("[Assignment 6 Report](https://drive.google.com/your-link)", unsafe_allow_html=True)
-
+    st.markdown("""
+    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/1Hj98OAQlYOB4EBUPBpJ2Y/WEBISTE-DESIGNS?page-id=0%3A1&node-id=1-2&node-type=canvas&viewport=599%2C518%2C0.18&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A2&share=1&embed-host=share" allowfullscreen></iframe>
+     """, unsafe_allow_html=True)
+     
 # Team Members Section
 elif page == "Team Members":
     st.title("Team Members")
