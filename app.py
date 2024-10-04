@@ -78,8 +78,7 @@ elif page == "Assignment 1: User Personna":
     st.markdown("In this assignment, we created detailed user personas for the AI-Based Skill Assessment System. The purpose of developing these personas was to gain a deeper understanding of the target users—IT engineering students, Training and Placement Officers (TPOs), and academic administrators. Each persona includes demographic information, goals, needs, and pain points related to the skill assessment and placement process. By identifying these user characteristics, we aimed to ensure that the system's design aligns with users' expectations and enhances their overall experience. This user-centered approach will guide the development of features and functionalities tailored to the diverse needs of our users.")
     st.markdown("[Assignment 1 Report](https://drive.google.com/your-link)", unsafe_allow_html=True)
     st.markdown("""
-    <iframe src="./assignments/ass1.png" width="800" height="600" 
-    style="border: none;"></iframe>
+    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/mohMlq546xIVB4C4J9B1SC/User-Persona?node-id=0-1&embed-host=share" allowfullscreen></iframe>
     """, unsafe_allow_html=True)
 
 # Assignment 2
@@ -92,8 +91,7 @@ elif page == "Assignment 2: Scenerio and user jouney map":
 
     st.markdown("[Assignment 2 Report](https://drive.google.com/your-link)", unsafe_allow_html=True)
     st.markdown("""
-    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" 
-    src="https://embed.figma.com/design/2Lk98RBQlYOB4EBUPBpJ3Y/WEBISTE-DESIGNS?node-id=0-2&embed-host=share" allowfullscreen></iframe>
+    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/board/vApZoOPu9uKPGy3qcnI7w7/User-Journey-Map?node-id=16-245&embed-host=share" allowfullscreen></iframe>
     """, unsafe_allow_html=True)
 
 # Add more assignments similarly...
@@ -118,8 +116,7 @@ elif page == "Assignment 3: Card sorting":
 
     st.markdown("[Assignment 3 Report](https://drive.google.com/your-link)", unsafe_allow_html=True)
     st.markdown("""
-    <iframe src="./assignments/card_sort.pdf" width="800" height="450" 
-    style="border: none;"></iframe>
+    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/board/vQDDcetODUlKHmc2dA6eQu/Card-Sort-Activity?node-id=45-121&embed-host=share" allowfullscreen></iframe>
     """, unsafe_allow_html=True)
 
 
