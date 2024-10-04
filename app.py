@@ -185,7 +185,7 @@ elif page == "Team Members":
     col1, col2, col3, col4 = st.columns(4)
     
     with col1:
-        st.image("./images/mansi.jpeg", width=150)
+        st.image("./images/vivek.jpeg", width=150)
         st.write("Name: Vivek Pahilwan")
         st.write("Roll No: 331071")
         st.write("PRN: 22320030")
@@ -203,7 +203,7 @@ elif page == "Team Members":
         st.write("PRN: 22320016")
     
     with col4:
-        st.image("./images/mansi.jpeg", width=150)
+        st.image("./images/dhiraj.jpeg", width=150)
         st.write("Name: Dhiraj Wagh")
         st.write("Roll No: 331072")
         st.write("PRN: 22320044")
