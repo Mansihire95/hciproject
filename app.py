@@ -12,7 +12,7 @@ team_button = st.sidebar.button("Team Members")
 assignment_page = st.sidebar.selectbox("Select an Assignment", 
                                        ["Assignment 1: User Personna", 
                                         "Assignment 2: Scenerio and user jouney map", 
-                                        "Assignment 3: card sorting",
+                                        "Assignment 3: Card sorting",
                                         "Assignment 4: Low fidelity design",
                                         "Assignment 5: High fidelity design",
                                         "Assignment 6: prototype design"])
@@ -70,8 +70,8 @@ if page == "Home":
     """, unsafe_allow_html=True)
 
 # Assignment 1
-elif page == "Assignment 1: User personna":
-    st.title("Assignment 1: User personna")
+elif page == "Assignment 1: User Personna":
+    st.title("Assignment 1: User Personna")
     st.write("In this assignment, we created detailed user personas for the AI-Based Skill Assessment System. The purpose of developing these personas was to gain a deeper understanding of the target users—IT engineering students, Training and Placement Officers (TPOs), and academic administrators. Each persona includes demographic information, goals, needs, and pain points related to the skill assessment and placement process. By identifying these user characteristics, we aimed to ensure that the system's design aligns with users' expectations and enhances their overall experience. This user-centered approach will guide the development of features and functionalities tailored to the diverse needs of our users.")
     st.markdown("[Assignment 1 Report](https://drive.google.com/your-link)", unsafe_allow_html=True)
     st.markdown("""
@@ -80,9 +80,13 @@ elif page == "Assignment 1: User personna":
     """, unsafe_allow_html=True)
 
 # Assignment 2
-elif page == "Assignment 2: scenerio and user journey map":
-    st.title("Assignment 2: User Interface Design")
-    st.write("Description of Assignment 2")
+elif page == "Assignment 2: Scenerio and user jouney map":
+    st.title("Assignment 2: Scenerio and user jouney map")
+    st.write("In this assignment, we developed detailed scenarios and a user journey map for the AI-Based Skill Assessment System. The primary goal was to visualize and analyze the interactions of our target users—IT engineering students and Training and Placement Officers (TPOs)—with the system.")
+    st.write("Scenarios: We crafted specific use cases that represent typical interactions users might have with the platform. These scenarios illustrate how students can upload resumes, take domain-specific quizzes, and receive personalized career recommendations. Simultaneously, we depicted how TPOs can manage and sort students based on their skills and resume scores. This method helps us identify user needs and pain points, guiding the design and functionality of our system.")
+    st.write("User Journey Map: We created a user journey map to capture the entire experience of students as they navigate through the placement process. This map highlights key touchpoints, emotions, and potential barriers faced by users, allowing us to enhance the user experience. By understanding the user journey, we aim to streamline interactions and ensure that the platform meets the needs of its diverse audience.")
+    st.write("This assignment has laid the groundwork for a user-centered design approach, ensuring that our system effectively addresses the challenges faced by IT engineering students and TPOs in the placement process")
+
     st.markdown("[Assignment 2 Report](https://drive.google.com/your-link)", unsafe_allow_html=True)
     st.markdown("""
     <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" 
@@ -90,28 +94,109 @@ elif page == "Assignment 2: scenerio and user journey map":
     """, unsafe_allow_html=True)
 
 # Add more assignments similarly...
-elif page == "Assignment 3: card sorting":
-    st.title("Assignment 3: Interaction Design")
-    st.write("Description of Assignment 3")
-    st.markdown("[Assignment 3 Report](https://drive.google.com/your-link)", unsafe_allow_html=True)
+elif page == "Assignment 3: Card sorting":
+    st.title("Assignment 3: Card sorting")
+    st.write("To enhance the information architecture of the AI-Based Skill Assessment System through open and closed card sorting techniques, ensuring intuitive navigation for users. Card sorting is a user-centered design method used to categorize information based on user input. It helps reveal how users expect content to be organized.")
+    
+    st.markdown("<h3 style='font-size: 26px;'>Types of Card Sorting </h3>", unsafe_allow_html=True)
+    
+    st.markdown("<h2 style='font-size: 22px;'>1. Open Card Sorting</h2>", unsafe_allow_html=True)
+    st.write(
+        "Participants sort a set of cards representing content/features into groups they create. "
+        "This method helps us understand how users naturally categorize information and their expectations for the system's structure."
+    )
+    
+    st.markdown("<h2 style='font-size: 22px;'>2. Closed Card Sorting</h2>", unsafe_allow_html=True)
+    st.write(
+        "Participants sort cards into predefined categories. "
+        "This method evaluates the effectiveness of the proposed information architecture and helps refine the categorization."
+    )
+    
+    st.markdown("<h2 style='font-size: 26px;'>Outcomes</h2>", unsafe_allow_html=True)
+    st.write(
+        "The card sorting assignment significantly improved the usability of the AI-Based Skill Assessment System by aligning its structure with user preferences, ensuring an effective user experience."
+    )
+
+    # Embed PDF viewer
     st.markdown("""
     <iframe src="./assignments/card_sort.pdf" width="800" height="450" 
     style="border: none;"></iframe>
     """, unsafe_allow_html=True)
 
-elif page == "Assignment 4: Prototyping":
-    st.title("Assignment 4: Prototyping")
-    st.write("Description of Assignment 4")
+
+elif page == "Assignment 4: Low fidelity design":
+    st.title("Assignment 4: Low Fidelity Design")
+    st.write(
+        "In this assignment, we created low-fidelity prototypes for the AI-Based Skill Assessment System. The primary objective of low-fidelity design is to visualize and iterate on the basic layout and functionality of the system without getting bogged down by intricate details."
+    )
+    
+    st.markdown("<h2 style='font-size: 26px;'>Process</h2>", unsafe_allow_html=True)
+    st.write(
+        "1. **Sketching**: We began by sketching the main interfaces on paper, including the home screen, user registration, resume upload, quiz interface, and TPO dashboard. These sketches helped us conceptualize the layout and navigation.\n"
+        "2. **Wireframing**: After sketching, we moved to digital wireframing using tools like Figma or Balsamiq. This step allowed us to create a more structured layout with defined elements while maintaining a focus on functionality over aesthetics.\n"
+        "3. **Feedback and Iteration**: We conducted user testing sessions with peers to gather feedback on the wireframes. Participants provided insights into usability, layout preferences, and potential navigation issues. Based on this feedback, we iteratively improved our designs."
+    )
+
+    st.markdown("<h2 style='font-size: 26px;'>Outcomes</h2>", unsafe_allow_html=True)
+    st.write(
+        "The low-fidelity prototypes enabled us to effectively communicate our design ideas and gather early feedback. This iterative process not only enhanced our understanding of user needs but also served as a foundation for developing high-fidelity prototypes in subsequent assignments."
+    )
+    
     st.markdown("[Assignment 4 Report](https://drive.google.com/your-link)", unsafe_allow_html=True)
+    st.markdown("""
+    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" 
+    src="https://embed.figma.com/design/4Hj98OAQlYOB4EBUPBpJ5Y/WEBISTE-DESIGNS?node-id=0-4&embed-host=share" allowfullscreen></iframe>
+    """, unsafe_allow_html=True)
 
-elif page == "Assignment 5: Usability Testing":
-    st.title("Assignment 5: Usability Testing")
-    st.write("Description of Assignment 5")
+
+elif page == "Assignment 5: High fidelity design":
+    st.title("Assignment 5: High fidelity design")
+    st.write(
+        "In this assignment, we developed high-fidelity prototypes for the AI-Based Skill Assessment System. High-fidelity designs incorporate detailed visual elements and interactions, closely resembling the final product."
+    )
+    
+    st.markdown("<h2 style='font-size: 26px;'>Process</h2>", unsafe_allow_html=True)
+    st.write(
+        "1. **Visual Design**: Building on our low-fidelity prototypes, we focused on creating visually appealing interfaces. This included selecting color schemes, typography, and icons that align with our target audience and branding.\n"
+        "2. **Interactive Prototyping**: Using tools like Figma or Adobe XD, we transformed static screens into interactive prototypes. This enabled users to navigate through the application and experience its functionality as they would in a live environment.\n"
+        "3. **User Testing**: We conducted usability testing sessions with potential users to gather feedback on the high-fidelity prototypes. Observing how users interacted with the design allowed us to identify any usability issues or areas for improvement."
+    )
+
+    st.markdown("<h2 style='font-size: 26px;'>Outcomes</h2>", unsafe_allow_html=True)
+    st.write(
+        "The high-fidelity prototypes provided a realistic representation of the system, enabling us to validate design choices and gather comprehensive user feedback. This phase was crucial for ensuring that the final product aligns with user expectations and requirements."
+    )
+
     st.markdown("[Assignment 5 Report](https://drive.google.com/your-link)", unsafe_allow_html=True)
+    st.markdown("""
+    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" 
+    src="https://embed.figma.com/design/5Hj98OAQlYOB4EBUPBpJ6Y/WEBISTE-DESIGNS?node-id=0-5&embed-host=share" allowfullscreen></iframe>
+    """, unsafe_allow_html=True)
 
-elif page == "Assignment 6: Final Evaluation":
-    st.title("Assignment 6: Final Evaluation")
-    st.write("Description of Assignment 6")
+
+elif page == "Assignment 6: prototype design":
+    st.title("Assignment 6: prototype design")
+    st.write(
+        "In this assignment, we developed a high-fidelity prototype of the AI-Based Skill Assessment System. The goal was to translate our low-fidelity designs into a more polished and interactive representation of the system, ensuring that all user requirements and feedback from previous assignments were incorporated."
+    )
+    
+    st.write(
+        "The prototype was created using design tools that allowed us to simulate user interactions, providing a realistic experience of how the system will function. This phase involved:"
+    )
+    
+    st.markdown("""
+    <ul style="font-size: 16px;">
+        <li>Integrating visual elements such as color schemes, typography, and icons that align with the branding and usability principles.</li>
+        <li>Defining user flows and navigation paths to ensure intuitive access to all features of the system.</li>
+        <li>Conducting usability testing sessions to gather feedback on the prototype and make necessary refinements.</li>
+        <li>Iterating on the design based on user feedback to enhance the overall user experience.</li>
+    </ul>
+    """, unsafe_allow_html=True)
+
+    st.write(
+        "By the end of this assignment, we aimed to have a functional prototype that not only looks appealing but also meets the usability standards necessary for effective interaction. This prototype serves as a crucial step before the final implementation of the system."
+    )
+    
     st.markdown("[Assignment 6 Report](https://drive.google.com/your-link)", unsafe_allow_html=True)
 
 # Team Members Section
@@ -141,5 +226,5 @@ elif page == "Team Members":
     with col4:
         st.image("./images/dhiraj.jpeg", width=150)
         st.write("Name: Dhiraj Wagh")
-        st.write("Roll No: 331072")
+        st.write("Roll No: 331071")
         st.write("PRN: 22320044")
