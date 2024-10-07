@@ -211,5 +211,5 @@ elif page == "Team Members":
     with col4:
         st.image("./images/dhiraj.jpeg", width=150)
         st.write("Name: Dhiraj Wagh")
-        st.write("Roll No: 331072")
+        st.write("Roll No: 331071")
         st.write("PRN: 22320044")
