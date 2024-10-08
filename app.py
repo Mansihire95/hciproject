@@ -186,7 +186,7 @@ elif page == "Assignment 6: prototype design":
      """, unsafe_allow_html=True)
 
 elif page == "Assignment 7: Cognitive Walkthrough":
-    st.title("Assignment 7: Cognitive Cognitive ")
+    st.title("Assignment 7: Cognitive Walkthrough ")
     st.write(
         "A Cognitive Walkthrough is a usability evaluation method used in UI/UX design to assess how easily a user can accomplish tasks when interacting with a system or interface for the first time"
     )
@@ -209,10 +209,19 @@ elif page == "Assignment 7: Cognitive Walkthrough":
         "By the end of this assignment, we aimed to have a functional prototype that not only looks appealing but also meets the usability standards necessary for effective interaction. This prototype serves as a crucial step before the final implementation of the system."
     )
     st.markdown("[Assignment 7 Google sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vRWPvANz1TCSEDlmdwS8CAsUqoYSN31yxLHx3fZm7J8_HH6UgGrdb-pgIwCX0Iutwt8DBt_A7ypHr_g/pubhtml?widget=true&amp;headers=false)", unsafe_allow_html=True)
-    st.markdown("""
+    st.markdown(
+    """
+    <style>
+    iframe {
+        width: 50vw;
+        height: 100vh;
+        border: none;
+    }
+    </style>
     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRWPvANz1TCSEDlmdwS8CAsUqoYSN31yxLHx3fZm7J8_HH6UgGrdb-pgIwCX0Iutwt8DBt_A7ypHr_g/pubhtml?widget=true&amp;headers=false"></iframe>
-     """, unsafe_allow_html=True)
-     
+    """,
+    unsafe_allow_html=True
+)
 # Team Members Section
 elif page == "Team Members":
     st.title("Team Members")
