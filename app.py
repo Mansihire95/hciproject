@@ -15,7 +15,8 @@ assignment_page = st.sidebar.selectbox("Select an Assignment",
                                         "Assignment 3: Card sorting",
                                         "Assignment 4: Low fidelity design",
                                         "Assignment 5: High fidelity design",
-                                        "Assignment 6: prototype design"])
+                                        "Assignment 6: prototype design",
+                                        "Assignment 7: Cognitive Walkthrough" ])
 
 # Determine the page to display
 if home_button:
@@ -182,6 +183,34 @@ elif page == "Assignment 6: prototype design":
     st.markdown("[Assignment 6 Report](https://drive.google.com/your-link)", unsafe_allow_html=True)
     st.markdown("""
     <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/1Hj98OAQlYOB4EBUPBpJ2Y/WEBISTE-DESIGNS?page-id=0%3A1&node-id=1-2&node-type=canvas&viewport=599%2C518%2C0.18&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A2&share=1&embed-host=share" allowfullscreen></iframe>
+     """, unsafe_allow_html=True)
+
+elif page == "Assignment 7: Cognitive Walkthrough":
+    st.title("Assignment 7: Cognitive Cognitive ")
+    st.write(
+        "A Cognitive Walkthrough is a usability evaluation method used in UI/UX design to assess how easily a user can accomplish tasks when interacting with a system or interface for the first time"
+    )
+    st.write(
+        "It focuses on how users navigate and learn a product by evaluating their thought processes during task completion"
+    )
+    st.write(
+        "Key Steps in a Cognitive Walkthrough:"
+    )
+    st.markdown("""
+    <ul style="font-size: 16px;">
+        <li>Define the task(s): Identify the specific task(s) users will perform, such as signing up for a service, searching for information, or making a purchase</li>
+        <li>Create user personas: Develop user personas representing your target audience. These personas help evaluators think about the experience from the perspective of real users.</li>
+        <li>Walk through each step: The evaluators walk through the interface step by step, imagining what the user would do at each stage.</li>
+        <li>Evaluate user success: After walking through the tasks, evaluators assess whether users would have been able to complete the task smoothly or if they would encounter difficulties (e.g., confusion, frustration, or errors.</li>
+        <li>Identify potential usability issues: The goal is to identify problems users might face, such as unclear buttons, confusing navigation, or lack of helpful feedback.</li>
+    </ul>
+    """, unsafe_allow_html=True)
+    st.write(
+        "By the end of this assignment, we aimed to have a functional prototype that not only looks appealing but also meets the usability standards necessary for effective interaction. This prototype serves as a crucial step before the final implementation of the system."
+    )
+    st.markdown("[Assignment 7 Google sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vRWPvANz1TCSEDlmdwS8CAsUqoYSN31yxLHx3fZm7J8_HH6UgGrdb-pgIwCX0Iutwt8DBt_A7ypHr_g/pubhtml?widget=true&amp;headers=false)", unsafe_allow_html=True)
+    st.markdown("""
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRWPvANz1TCSEDlmdwS8CAsUqoYSN31yxLHx3fZm7J8_HH6UgGrdb-pgIwCX0Iutwt8DBt_A7ypHr_g/pubhtml?widget=true&amp;headers=false"></iframe>
      """, unsafe_allow_html=True)
      
 # Team Members Section
